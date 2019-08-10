@@ -1,0 +1,212 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+/*==========================Small Devices (Tablets, 768px and up)==========================*/
+@media screen and (min-width:768px) {
+    .about__description {
+        font-size: 18px;
+        padding: 20px 30px 20px 30px;
+    }
+}
+
+/*==========================Medium Devices (Desktop, 992px and up)============================*/
+@media screen and (min-width:992px) {
+    .about__description {
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+        line-height: 150%;
+    }
+
+    .about__heading {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+
+    .about__name {
+        font-size: 20px;
+        padding-top: 25px;
+        line-height: 150%;
+    }
+
+    .education {
+        padding-top: 0px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .edu {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .model-content {
+        width: 600px;
+    }
+
+    #wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    #edu2 {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    #edu {
+        display: grid;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #work {
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+    }
+
+    #about {
+        display: grid;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .skills-text {
+        font-size: 20px;
+    }
+
+    .skill_text {
+        font-size: 18px;
+    }
+
+    .col-xs-6 {
+        padding: 15px;
+    }
+
+    /*=====NAME AND SOCIAL====*/
+
+    .photoshop {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .more {
+        padding: 10px 70px;
+        font-size: 16px;
+    }
+
+
+    /*WEBSITE STYLES*/
+    .websites {
+        overflow: hidden;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        margin-top: 20px;
+    }
+
+    .websites img {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        object-fit: cover;
+        width: 260px;
+        height: 200px;
+    }
+
+    .websites:hover .img-overlay {
+        transform: translateY(0%);
+    }
+
+    .websites:hover {
+        box-shadow: grey 0px 30px 40px;
+        transition: all ease-in-out 300ms;
+    }
+
+    .img-overlay a {
+        font-size: 2rem;
+        padding: 8px 25px;
+    }
+
+    .contact {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact_text {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+
+    .name1 {
+        font-size: 25px;
+    }
+
+    .hello {
+        font-family: 'Overpass Mono', monospace;
+        color: white;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .contact-wrapper {
+        font-size: 1.8rem;
+        height: 400px;
+    }
+
+    .contact-wrapper .fa {
+        padding: 5px 20px 10px 20px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+
+}
+
+/*========================Large Devices (Large Desktop, 1200px and up)========================*/
+@media screen and (min-width:1200px) {
+
+    /*=====NAME AND SOCIAL====*/
+
+    .photoshop {
+        font-size: 30px;
+    }
+
+    .contact {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .contact_text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+
+    .name1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
